@@ -1,0 +1,114 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+li{
+	display: inline;
+	padding: 10px;
+}
+ul{
+	text-align: right;
+	margin-top: 15px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 16px;
+}
+
+.gmail{
+background-color: brown;
+padding: 10px 15px;
+border-radius: 100%;
+color: white;
+font-family: arial;
+font-size: 16px;
+}
+
+.main{
+	margin: 150px 0;
+	text-align: center;
+	width: 100%
+}
+
+h1{
+	font-size: 100px;
+	font-family: arial;
+}
+
+.g{
+	color: #4285f4;
+}
+
+.e{
+	color: #ea4335;
+}
+.o{
+	color: #fbbc05;
+}
+.l{
+	color: #34a853;
+}
+input{
+	width:550px;
+	height: 40px;
+	border: none;
+	outline: none;
+	margin-left: 5px;
+	background-color: transparent;   
+
+}
+
+input::placeholder{
+	padding-left: 30px;
+	font-size: 20px;
+}
+
+.search{
+	width:700px;
+	height: 40px;
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	box-shadow: 1px 1px 3px #ddd, -1px -1px 3px #ddd;
+	margin: 35px auto;
+	/*display: none;*/
+	/*visibility: hidden;*/
+
+}
+
+.grid{
+	width: 35%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin: 0 auto;
+}
+
+.grid div{
+	padding: 20px 10px;
+	position: relative;
+}
+
+.grid div:hover{
+	background-color: #ddd;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+.grid i{
+	position: absolute;
+	 top: 10px; 
+	 right: 4px;
+	 
+}
+
+
+.hide{
+	display: none;
+}
